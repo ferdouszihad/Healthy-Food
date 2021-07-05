@@ -1,0 +1,364 @@
+/* Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap');
+
+:root {
+    --bg: #e3ecc2;
+    --lato: 'Lato', sans-serif;
+    --ubu: 'Ubuntu', sans-serif;
+    --blue: #7287ae;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: var(--ubu);
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+
+}
+
+section {
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    font-weight: bold;
+}
+
+.mybtn {
+    background: var(--blue);
+    padding: 15px 70px;
+    font-size: 21px;
+    color: #fff;
+    border-radius: 40px;
+    letter-spacing: 2px;
+    font-weight: 500;
+
+}
+
+ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.no-border {
+    border: none;
+}
+
+
+/* .................header Start  */
+.hf_wrap {
+
+    overflow: hidden;
+    background: url(img/headbg.png) no-repeat;
+    background-color: var(--bg);
+    background-size: 100% 1056px;
+}
+
+header {
+
+
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 250px;
+
+}
+
+
+header #menu {
+    padding: 0 130px;
+}
+
+
+
+header .navbar-brand {
+    width: 300px;
+
+}
+
+header .navbar-brand img {
+    width: 100%;
+}
+
+
+header .nav-link {
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+    margin-left: 32px;
+
+}
+
+header .nav-link:hover {
+    color: rgb(223, 252, 62);
+}
+
+
+
+header .col-12 h1 {
+    font-weight: bolder;
+    font-size: 99px;
+    padding-top: 1.2em;
+}
+
+header .col-12 p {
+
+    font-size: 24px;
+    padding: 1em 12em;
+}
+
+
+
+
+
+.navbar-toggler-icon i {
+    color: #fff;
+}
+
+/* -------Feature Start------------ */
+
+#feature .featureTitle {
+    font-size: 44px;
+    padding: 100px 0 50px;
+    color: var(--blue);
+    text-transform: uppercase;
+}
+
+
+#feature .item .card {
+    margin: 0 40px;
+    margin-top: 50px;
+    width: 340px;
+
+}
+
+#feature .item .card-title {
+    text-transform: none;
+    font-size: 32px;
+    color: #504f4f;
+}
+
+#feature .item .card-text {
+    font-size: 21px;
+    color: #504f4f;
+}
+
+#feature .item .item-price {
+    font-size: 25px;
+    color: #504f4f;
+}
+
+#feature button {
+    margin: 100px 0;
+    margin-bottom: 150px;
+
+}
+
+/* --------Offer Start------------ */
+
+section#offers .row {
+    align-items: center;
+}
+
+section#offers .offerImg img {
+    width: 100%;
+    position: relative;
+}
+
+
+
+section#offers .offerText h2 {
+
+    font-size: 53px;
+    text-transform: none;
+    color: #333333;
+
+}
+
+section#offers .offerText p {
+    font-size: 27px;
+    color: #575555;
+    font-weight: lighter;
+    padding: 25px 0;
+}
+
+section#offers .offerText {
+    padding-left: 60px;
+}
+
+section#offers .offer_last {
+    padding-left: 137px;
+}
+
+section#offers .offer1 {
+    padding-right: 47px;
+}
+
+/* -----Tutorial Start------------- */
+
+section#tutorial {
+    background: var(--blue);
+    padding-bottom: 80px;
+}
+
+#tutorial>h2 {
+    padding-top: 100px;
+    font-size: 43px;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+#tutorial .card {
+    background: var(--blue);
+    border: none;
+    color: #fff;
+}
+
+#tutorial .card .number {
+    background: url(img/numberbg.png) no-repeat;
+    background-position: center;
+    color: var(--blue);
+    padding: 60px;
+
+}
+
+#tutorial .card h3 {
+    text-transform: none;
+    font-size: 42px;
+
+}
+
+#tutorial .card p {
+    font-size: 17px;
+    padding: 10px 0;
+    line-height: 120%;
+    font-weight: 300;
+
+}
+
+/* -----Delivery Start--------------------- */
+
+section#delivery {
+    padding: 130px 0;
+    background: url(img/deliverybg.png) no-repeat;
+    background-size: cover;
+    background-position: top center;
+    color: var(--blue);
+}
+
+#delivery h2 {
+    font-size: 74px;
+}
+
+#delivery p {
+    font-size: 24px;
+    padding: 2rem 13.5rem;
+    padding-bottom: 3rem;
+}
+
+#delivery a {
+    padding: 20px 80px;
+}
+
+/* ----------Footer Start----------- */
+footer {
+    background-color: var(--bg);
+    color: var(--blue);
+
+}
+
+footer .footQuote {
+    padding: 70px 0 55px;
+}
+
+footer .footQuote i {
+    font-size: 41px;
+
+}
+
+
+footer .footQuote p {
+    font-size: 30px;
+    padding: 25px 133px;
+}
+
+footer .footQuote h3 {
+    font-size: 38px;
+}
+
+footer .bg_wrap {
+    background: url(img/footbg.png) no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+footer .social {
+    text-align: center;
+}
+
+footer .social ul li {
+    display: inline-block;
+
+}
+
+footer .social ul li a {
+    margin: 0 15px;
+}
+
+footer .social ul li a img {
+    max-width: 55px;
+}
+
+.footerMain {
+    padding: 380px 130px 80px;
+    color: #fff;
+}
+
+.footerMain .footLink {
+    float: right;
+}
+
+.footerMain h5,
+.footerMain h6 {
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.footerMain h5,
+.footerMain p {
+    font-size: 23px;
+    padding-right: 25px;
+
+}
+
+.footerMain a {
+    color: #fff;
+    font-size: 18px;
+}
+
+.footerMain a:hover {
+
+    color: yellow;
+    text-decoration: none;
+
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #7287aeaf;
+    z-index: 9999;
+    transition: all 1.5s ease;
+    opacity: .8;
+}
